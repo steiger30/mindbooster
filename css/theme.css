@@ -1,0 +1,40 @@
+body {
+    background: #2D294C;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 805px;
+}
+
+.cards {
+    height: 300px;
+    width: 240px;
+    background: white;
+    border-radius: 22px;
+    box-shadow: 0px 0px 1px 5px #eae9e9;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-cards-text {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cards-index{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+

@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 113px;
+    background: #413D5D;
+    color: #E0E0E0;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.logo-text {
+    font-size: 36px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.logo-img {
+    width: 54;
+    height: 61px;
+}
+
+.nav-link {
+    display: flex;
+    
+}
+.nav-link li{
+    list-style: none;
+    font-size: 28px;
+    font-family: Open Sans;
+    color: #E0E0E0;
+    margin-left: 45px;
+}
